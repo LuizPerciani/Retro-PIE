@@ -1,0 +1,24 @@
+Link para download Retro PIE:
+
+https://retropie.org.uk/download/
+
+Link para baixar o Retro PIE por comandos no terminal:
+
+https://retropie.org.uk/docs/Debian/
+
+Seguintes comandos para baixar o Retro PIE:
+
+sudo apt-get update && sudo apt-get upgrade
+
+sudo apt-get install -y git dialog unzip xmlstarlet
+
+git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+
+cd RetroPie-Setup
+
+Para executar o script, após todos os comandos anteriores:
+
+sudo ./retropie_setup.sh
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
